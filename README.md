@@ -1,5 +1,6 @@
 # HAR-SOP-MotionDetection
  Used Deep Learning to detect self-cleaning activities of operators in real-time before they enter the Dust-free Room
+ View the [Project Report](https://drive.google.com/uc?export=download&id=1XpMkNKQq06au4DEoWKEoOaOlKq_2mWbn) of MOST College Student Research
 
 ## Dataset
 
