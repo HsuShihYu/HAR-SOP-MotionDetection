@@ -15,7 +15,7 @@ All the videos were captured at 515 frames. Each video has a spatial resolution 
 The output of extracting posture feature from above videos.   
 
 ## Requirement
-`Python3.6x`(preferably from the [Anaconda Distribution](https://www.anaconda.com/download/))
+`Python3.6x`(preferably from the [Anaconda Distribution](https://www.anaconda.com/download/))  
 Linux version preferably using `Ubuntu 16.04`  
 
 Tools/Libraries we need to install on the machine:
