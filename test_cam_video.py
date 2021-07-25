@@ -22,8 +22,8 @@ opWrapper.configure(sgv.openpose_parameter())
 opWrapper.start()
 model_path = sgv.model_directory
 
-net = darknet.load_net("/home/richard/Documents/darknet/SOP_cfg_Updated/yolov3-tiny.cfg", "/home/richard/Documents/darknet/SOP_result_Updated/yolov3-tiny_best.weights", 0)
-meta = darknet.load_meta("/home/richard/Documents/darknet/SOP_cfg_Updated/obj.data")
+net = darknet.load_net("/home/sam/Documents/darknet/SOP_cfg_Updated/yolov3-tiny.cfg", "/home/richard/Documents/darknet/SOP_result_Updated/yolov3-tiny_best.weights", 0)
+meta = darknet.load_meta("/home/sam/Documents/darknet/SOP_cfg_Updated/obj.data")
 
 configPath = "/home/richard/Documents/darknet/SOP_cfg_Updated/yolov3-tiny.cfg"
 weightPath = "/home/richard/Documents/darknet/SOP_result_Updated/yolov3-tiny_best.weights"
