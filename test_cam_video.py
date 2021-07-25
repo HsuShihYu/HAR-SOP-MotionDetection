@@ -25,8 +25,8 @@ model_path = sgv.model_directory
 net = darknet.load_net("/home/sam/Documents/darknet/SOP_cfg_Updated/yolov3-tiny.cfg", "/home/richard/Documents/darknet/SOP_result_Updated/yolov3-tiny_best.weights", 0)
 meta = darknet.load_meta("/home/sam/Documents/darknet/SOP_cfg_Updated/obj.data")
 
-configPath = "/home/richard/Documents/darknet/SOP_cfg_Updated/yolov3-tiny.cfg"
-weightPath = "/home/richard/Documents/darknet/SOP_result_Updated/yolov3-tiny_best.weights"
+configPath = "/home/sam/Documents/darknet/SOP_cfg_Updated/yolov3-tiny.cfg"
+weightPath = "/home/sam/Documents/darknet/SOP_result_Updated/yolov3-tiny_best.weights"
 netMain = darknet.load_net_custom(configPath.encode("ascii"), weightPath.encode("ascii"), 0, 1)
 darknet_image = darknet.make_image(darknet.network_width(netMain), darknet.network_height(netMain),3)
 
